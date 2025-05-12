@@ -1,10 +1,10 @@
 body {
     width: 90%;
     margin: auto;
-    font-family: 'Roboto';
+    font-family: 'Helvetica Neue Light';
     line-height: 180%;
     text-align: justify;
-    background-color: #F5F4ED;
+    background-color: #f4f3ef;
 }
 
 section {
@@ -25,7 +25,7 @@ section {
 .box-colour {
     padding: 60px;
     color: white;
-    background-color: #9e122c;
+    background-color: #000000;
 }
 
 .canvas {
@@ -34,7 +34,7 @@ section {
 
 #canvasForHTML {
     margin: auto; 
-    width: 25%;
+    /* width: 25%; */
     padding: 5px;
 }
 
@@ -49,7 +49,7 @@ nav > a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    background-color: #9e122c;
+    background-color: #000000;
     font-size: 12px;
 
 }

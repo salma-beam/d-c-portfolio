@@ -3,7 +3,7 @@ let winHeight = 90;
 
 // Render a simple sine wave. Original by Daniel Shiffman.
 
-let xspacing = 18.2; // Distance between each horizontal location
+let xspacing = 23.2; // Distance between each horizontal location
 let w; // Width of entire wave
 let theta = 0.0; // Start angle at 0
 let amplitude = 20.0; // Height of wave
@@ -34,7 +34,7 @@ function draw() {
 function calcWave() {
   // Increment theta (try different values for
   // 'angular velocity' here)
-  theta += 0.03;
+  theta += 0.025;
 
   // For every x value, calculate a y value with sine function
   let x = theta;
@@ -51,8 +51,8 @@ function renderWave() {
   for (let x = 0; x < sentenceArray.length; x++) {
     //ellipse(x * xspacing, height / 2 + yvalues[x], 16, 16);
     textSize(26);
-    textFont('Roboto');
-    fill("#9e122c");
+    textFont('Helvetica Neue Medium');
+    fill("black");
     text(sentenceArray[x],x * xspacing, height / 2 + yvalues[x], 26, 26);
   }
 }
