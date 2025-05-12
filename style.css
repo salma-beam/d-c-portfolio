@@ -1,7 +1,26 @@
+@font-face {
+    font-family: 'Helvetica Neue Black';
+    src: url(/HelveticaNeue-Black.otf);
+  }
+
+  @font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url(/HelveticaNeueBold.ttf);
+  }
+
+  @font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url(/HelveticaNeueMedium.ttf);
+  }
+  @font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url(/HelveticaNeueLight.ttf);
+  }
+
 body {
     width: 90%;
     margin: auto;
-    font-family: 'Helvetica Neue Light';
+    font-family: 'Helvetica Neue Light', 'Helvetica', sans-serif;
     line-height: 180%;
     text-align: justify;
     background-color: #f4f3ef;

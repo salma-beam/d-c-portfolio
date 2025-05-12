@@ -1,24 +1,6 @@
 /* table {
     /* border: solid black 1px; 
 } */
-@font-face {
-    font-family: 'Helvetica Neue Black';
-    src: url(/HelveticaNeue-Black.otf);
-  }
-
-  @font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url(/HelveticaNeueBold.ttf);
-  }
-
-  @font-face {
-    font-family: 'Helvetica Neue Medium';
-    src: url(/HelveticaNeueMedium.ttf);
-  }
-  @font-face {
-    font-family: 'Helvetica Neue Light';
-    src: url(/HelveticaNeueLight.ttf);
-  }
 
 body {
     font-family: 'Helvetica Neue Light';
